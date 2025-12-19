@@ -1,9 +1,10 @@
-import { Stack } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
+import HomeScreen from "./index";
 
 export default function RootLayout() {
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-    </Stack>
+    <SafeAreaView className="flex-1 flex justify-center items-center bg-white">
+      <HomeScreen />
+    </SafeAreaView>
   );
 }
