@@ -3,7 +3,7 @@ import HomeScreen from "./index";
 
 export default function RootLayout() {
   return (
-    <SafeAreaView className="flex-1 flex justify-center items-center bg-white">
+    <SafeAreaView className="flex-1 flex justify-center items-center bg-primary-beige">
       <HomeScreen />
     </SafeAreaView>
   );
